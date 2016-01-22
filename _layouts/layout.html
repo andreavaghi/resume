@@ -24,7 +24,7 @@
 </head>
 <body>
 <div class="container">
-    <header class="three columns">
+    <header class="four columns">
         <img src="{{ site.baseurl }}static/img/profile.jpg" class="me">
         <h1>{{ site.name }}</h1>
         <p>
@@ -37,19 +37,17 @@
             {{ site.country }}
         </address>
         <p>
-            <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
-        </p>
-        <p>
-            <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
-            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
-            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
+            <a href="{{ site.email_full }}"><i class="fa fa-envelope"></i> {{ site.email }}</a><br/>
+            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a><br />
+            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a><br />
+            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-linkedin"></i> LinkedIn</a>
         </p>
     </header>
-    <div class="thirteen columns clearfix">
+    <div class="twelve columns clearfix">
 
         {{ content }}
 
-    <footer class="thirteen columns">
+    <footer class="twelve columns">
         <p>© All rights reserved.</p>
     </footer>
     </div>
