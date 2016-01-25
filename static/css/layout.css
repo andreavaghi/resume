@@ -27,7 +27,7 @@ a:hover, a:focus {
 }
 
 p, address {
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 .me {
@@ -77,6 +77,10 @@ article > header > h1 {
     line-height: 150%;
     margin-bottom: 0;
     color: inherit;
+}
+
+section.skills > article > header > h1 {
+  margin-bottom: 10px;
 }
 
 article > header > span + span {
