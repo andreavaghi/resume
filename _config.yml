@@ -10,13 +10,13 @@ safe: true
 url: http://andreavaghi.github.io/resume
 author: Andrea Vaghi
 
-baseurl: /
+baseurl: /resume/
 title: Andrea Vaghi's Resume
 name: Andrea Vaghi
 email: andreavaghi@gmail.com
 email_full: mailto:andreavaghi@gmail.com
-website: andreavaghi.dev
-website_full: http://www.andreavaghi.dev
+website: andreavaghi.com
+website_full: http://www.andreavaghi.com
 github: andreavaghi
 twitter: andreavaghi
 tel: +39 328 9392071
